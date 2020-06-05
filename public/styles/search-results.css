@@ -71,11 +71,16 @@ main .card p {
     color: #6c6c80;
 }
 
+body {
+    background-color: white;
+}
+
 body::after {
+    height: 18rem;
     content: "";
-    position: fixed;
-    background: white;
-    top: 280px;
+    position: absolute;
+    background: var(--bg-gelo);
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
